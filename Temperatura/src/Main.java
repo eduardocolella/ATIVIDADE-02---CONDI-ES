@@ -8,10 +8,10 @@ public class Main {
         double temperatura = sc.nextDouble();
 
         if (temperatura > 30) {
-            System.out.println("Muito Quente");
+            System.out.println("Quente");
         } else if (temperatura >= 15) {
-            System.out.println("Calor");
-        } else if (temperatura >= 0) {
+            System.out.println("Agradável");
+        } else if (temperatura < 15) {
             System.out.println("Frio");
     }
     }
